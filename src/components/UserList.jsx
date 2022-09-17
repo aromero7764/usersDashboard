@@ -9,8 +9,7 @@ const deleteUser = (id)=> {
 }
 
     return (
-        <div className='container mt-6'>
-
+        <div className='container mt-2'>
             <div className="columns is-flex is-flex-wrap-wrap is-variable is-6">
     {/* card body */}
 

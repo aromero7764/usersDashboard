@@ -42,9 +42,7 @@ const openSuccess = ()=> {
 
   return (
     <div className="App container.is-widescreen">
-      <div className='columns main1'>
-        <div className="column is-10 is-offset-1 color">
-
+      <div className='container'>
           <Header openModal={openModal}
             openSuccess={openSuccess} />
 
@@ -61,11 +59,9 @@ const openSuccess = ()=> {
 
           />}
         </div>
+     </div>
 
-      </div>
 
-
-    </div>
   )
 }
 
